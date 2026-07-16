@@ -1,0 +1,36 @@
+:root {
+  /* number */
+  --space-xxxs: 4px;
+  --space-xxs: 8px;
+  --space-xs: 12px;
+  --space-s: 16px;
+  --space-m: 24px;
+  --space-l: 32px;
+  --space-xl: 48px;
+  --space-xxl: 64px;
+  --space-xxxl: 80px;
+  --space-4-xl: 112px;
+  /* color */
+  --font-color-black: #1a1a1a;
+  --font-color-brand: #f5f5f7;
+  /* number */
+  --font-line-height-copy-m: 28px;
+  --font-line-height-copy-l: 32px;
+  --font-line-height-display-xl: 60px;
+  --font-line-height-display-xxl: 90px;
+  --font-size-copy-xs: 14px;
+  --font-size-copy-s: 18px;
+  --font-size-copy-m: 20px;
+  --font-size-display-l: 32px;
+  --font-size-display-xl: 60px;
+  --font-size-display-xxl: 80px;
+  --font-weight-regular: 400px;
+  --font-weight-bold: 700px;
+  --radius-radius-s: 1px;
+  --radius-radius-m: 2px;
+  --radius-radius-l: 4px;
+  --radius-radius-full: 9999px;
+  /* string */
+  --font-body: Mulish;
+  --font-heading: Philosopher;
+}
