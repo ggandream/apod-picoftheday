@@ -1,0 +1,8 @@
+.text {
+  color: var(--font-color-brand);
+  font-family: var(--font-body);
+  font-size: var(--font-size-copy-s);
+  font-style: normal;
+  font-weight: var(--font-weight-regular);
+  line-height: 28px;
+}

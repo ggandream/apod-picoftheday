@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Philosopher";
+  src: url("./assets/fonts/Philosopher/Philosopher-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("./assets/fonts/Mulish/Mulish-Regular.ttf") format("truetype");
+}
+
 :root {
   /* number */
   --space-xxxs: 4px;
@@ -33,4 +44,22 @@
   /* string */
   --font-body: Mulish;
   --font-heading: Philosopher;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #456679;
+  height: 100dvh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

@@ -1,0 +1,10 @@
+.hero {
+  display: flex;
+  width: 100%;
+  padding: var(--space-xxs) var(--space-xxl);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  gap: var(--space-m);
+}

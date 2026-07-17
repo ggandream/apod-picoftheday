@@ -1,0 +1,8 @@
+.title {
+  color: var(--font-color-brand);
+  font-family: var(--font-heading);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: var(--font-weight-regular);
+  line-height: normal;
+}
