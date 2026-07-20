@@ -9,6 +9,11 @@
   src: url("./assets/fonts/Mulish/Mulish-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter_28pt-Regular.ttf") format("truetype");
+}
+
 :root {
   /* number */
   --space-xxxs: 4px;
@@ -44,6 +49,7 @@
   /* string */
   --font-body: Mulish;
   --font-heading: Philosopher;
+  --font-logo: Inter;
 }
 
 * {
@@ -52,8 +58,14 @@
 
 body {
   margin: 0;
-  background-color: #456679;
+  background:
+    linear-gradient(rgba(10, 14, 26, 0.46), rgba(10, 14, 26, 0.46)),
+    url("assets/Frame 1.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
   height: 100dvh;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 main {

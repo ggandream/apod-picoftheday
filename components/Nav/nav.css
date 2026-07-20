@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  width: 375px;
+  padding: var(--space-l, 32px) var(--space-s, 16px);
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 1440px) {
+    display: flex;
+    width: 100%;
+    padding: var(--space-l) var(--space-xxl);
+    justify-content: space-between;
+    align-items: center;
+  }
+}

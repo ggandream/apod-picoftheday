@@ -1,0 +1,32 @@
+.date__btn {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 6px 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px solid transparent;
+  border-radius: var(--radius-radius-full);
+  background: var(--font-color-brand);
+
+  @media (min-width: 1440px) {
+  }
+}
+
+.date__input {
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 70px;
+  left: 60px;
+}
+
+.date {
+  position: relative;
+}

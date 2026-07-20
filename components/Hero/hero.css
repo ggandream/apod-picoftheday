@@ -1,10 +1,30 @@
 .hero {
   display: flex;
   width: 100%;
-  padding: var(--space-xxs) var(--space-xxl);
+  padding: var(--space-xs) var(--space-s);
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  text-align: start;
-  gap: var(--space-m);
+  gap: var(--space-m, 24px);
+
+  @media (min-width: 1440px) {
+    padding: var(--space-xxs) var(--space-xxl);
+
+    text-align: start;
+    gap: var(--space-m);
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }

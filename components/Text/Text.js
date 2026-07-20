@@ -1,3 +1,3 @@
-export function Text({ children = "" }) {
-  return `<p class="text">${children}</p>`;
+export function Text({ variant = "primary", children = "" }) {
+  return `<p class="text text--${variant}">${children}</p>`;
 }

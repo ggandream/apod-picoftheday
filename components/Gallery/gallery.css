@@ -1,0 +1,7 @@
+.gallery {
+  display: flex;
+  width: 375px;
+  padding: var(--space-s, 16px);
+  align-items: center;
+  gap: 368px;
+}

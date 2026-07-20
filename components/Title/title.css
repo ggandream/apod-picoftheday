@@ -1,8 +1,18 @@
 .title {
-  color: var(--font-color-brand);
+  color: var(--font-color-brand, #f5f5f7);
   font-family: var(--font-heading);
-  font-size: 80px;
+  font-size: var(--font-line-height-display-xl);
   font-style: normal;
   font-weight: var(--font-weight-regular);
-  line-height: normal;
+  line-height: 72px; /* 120% */
+  margin: 0;
+
+  @media (min-width: 1440px) {
+    color: var(--font-color-brand);
+    font-family: var(--font-heading);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    line-height: normal;
+  }
 }

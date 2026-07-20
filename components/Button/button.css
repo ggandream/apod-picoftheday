@@ -1,0 +1,25 @@
+.btn {
+  display: flex;
+  padding: var(--space-s) var(--space-m);
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-m);
+
+  border: 1px solid transparent;
+
+  border-radius: var(--radius-radius-l);
+  background: var(--font-color-brand);
+}
+
+.btn__text {
+  color: var(--font-color-black);
+  font-family: var(--font-body);
+  font-size: var(--font-size-copy-s);
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  line-height: normal;
+}
+
+.btn__icon {
+  margin-top: 4px;
+}
