@@ -1,7 +1,32 @@
 .gallery {
   display: flex;
-  width: 375px;
+  width: 100%;
   padding: var(--space-s, 16px);
   align-items: center;
   gap: 368px;
+
+  @media (min-width: 1024px) {
+    display: inline-flex;
+    padding: var(--space-l) var(--space-xxl) var(--space-l) 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}
+
+.slide__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-m);
+  flex-shrink: 0;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-s, 16px);
+  }
 }

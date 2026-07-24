@@ -1,3 +1,3 @@
-export function Title({ level = 1, children = "" } = {}) {
-  return `<h${level} class="title">${children}</h${level}>`;
+export function Title({ level = 1, children = "", lineclamp = false } = {}) {
+  return `<h${level} class="title ${lineclamp ? `title--lines` : ""}">${children}</h${level}>`;
 }

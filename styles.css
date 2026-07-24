@@ -57,15 +57,17 @@
 }
 
 body {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
   margin: 0;
-  background:
-    linear-gradient(rgba(10, 14, 26, 0.46), rgba(10, 14, 26, 0.46)),
-    url("assets/Frame 1.png");
+
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
-  height: 100dvh;
+  min-height: 100dvh;
   max-width: 1440px;
   margin-inline: auto;
+  overflow-x: hidden;
 }
 
 main {
@@ -73,5 +75,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   width: 100%;
+
+  position: relative;
+
+  @media (min-width: 1024px) {
+    gap: 130px;
+  }
 }

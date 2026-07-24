@@ -10,6 +10,7 @@
   border: 1px solid transparent;
   border-radius: var(--radius-radius-full);
   background: var(--font-color-brand);
+  cursor: pointer;
 
   @media (min-width: 1440px) {
   }
@@ -24,9 +25,15 @@
   opacity: 0;
   position: absolute;
   top: 70px;
-  left: 60px;
+  right: 0;
 }
 
 .date {
   position: relative;
+}
+
+@media (hover: hover) {
+  .date__btn:hover {
+    border: 2px dashed var(--font-color-black);
+  }
 }

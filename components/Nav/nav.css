@@ -1,7 +1,7 @@
-nav {
+.nav {
   display: flex;
-  width: 375px;
-  padding: var(--space-l, 32px) var(--space-s, 16px);
+  width: 100%;
+  padding: var(--space-l) var(--space-s);
   justify-content: space-between;
   align-items: center;
 
@@ -12,4 +12,20 @@ nav {
     justify-content: space-between;
     align-items: center;
   }
+}
+
+.nav--secondary {
+  width: 100%;
+  align-self: stretch;
+  padding: 0;
+}
+
+.nav__span {
+  color: var(--font-color-brand);
+  font-family: Inter;
+  font-size: var(--space-xs);
+  font-style: normal;
+  font-weight: var(--font-weight-regular);
+  line-height: normal;
+  text-align: center;
 }

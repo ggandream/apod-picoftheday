@@ -7,4 +7,6 @@ async function loadIcon(name) {
 export const icons = {
   planet: await loadIcon("planet"),
   calendar: await loadIcon("calendar"),
+  arrow: await loadIcon("arrow-narrow-right-dashed"),
+  x: await loadIcon("x"),
 };
